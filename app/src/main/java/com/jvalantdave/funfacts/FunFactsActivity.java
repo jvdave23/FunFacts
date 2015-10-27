@@ -8,6 +8,9 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Button;
 
+import java.util.Random;
+
+
 public class FunFactsActivity extends AppCompatActivity {
 
     @Override
@@ -22,7 +25,14 @@ public class FunFactsActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // the button was clicked, so update the fact label with a new fact
-                String fact = "Ostriches can run faster than horses.";
+                String fact = "";
+                //randomly select a fact
+                Random randomGenerator = new Random(); // construct a new Random number generator
+                int randomNumber = randomGenerator.nextInt(3);
+                fact = randomNumber + "";
+
+
+                //update the label with our dynamic fact
                 factLabel.setText(fact);
             }
         };
