@@ -4,6 +4,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.TextView;
+import android.widget.Button;
 
 public class FunFactsActivity extends AppCompatActivity {
 
@@ -11,6 +14,19 @@ public class FunFactsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fun_facts);
+
+        // declare our view variables
+        final TextView factLabel = (TextView) findViewById(R.id.factTextView);
+        Button showFactButton = (Button) findViewById(R.id.showFactButton);
+        View.OnClickListener listener = new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // the button was clicked, so update the fact label with a new fact
+                String fact = "Ostriches can run faster than horses.";
+                factLabel.setText(fact);
+            }
+        };
+        showFactButton.setOnClickListener(listener);
     }
 
     @Override
