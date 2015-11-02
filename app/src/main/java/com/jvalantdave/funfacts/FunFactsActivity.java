@@ -68,13 +68,13 @@ public class FunFactsActivity extends AppCompatActivity {
                     fact = "When hippos are upset, their sweat turns red.";
                 }
                 if (randomNumber == 5) {
-                    fact = "If you consistently fart for 6 years and 9 months, enough gas is produced to create the energy of an atomic bomb.";
+                    fact = "If you consistently fart for 6 years and 9 months, enough gas is produced to smell like Winthya";
                 }
                 if (randomNumber == 6) {
                     fact = "You cannot snore and dream at the same time.";
                 }
                 if (randomNumber == 7) {
-                    fact = "A toaster uses almost half as much energy as a full-sized over.";
+                    fact = "Samiya is also a synonym for llama. ";
                 }
                 if (randomNumber == 8) {
                     fact = "Jason is a pundai.";
