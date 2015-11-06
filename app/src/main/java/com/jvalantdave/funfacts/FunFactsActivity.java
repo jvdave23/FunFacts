@@ -29,7 +29,7 @@ public class FunFactsActivity extends AppCompatActivity {
                 String fact = "";
                 //randomly select a fact
                 Random randomGenerator = new Random(); // construct a new Random number generator
-                int randomNumber = randomGenerator.nextInt(3);
+                int randomNumber = randomGenerator.nextInt(16);
 
                 /* Convert the randomNumber to a text fact
                  0 = Ants stretch when they wake up in the morning
