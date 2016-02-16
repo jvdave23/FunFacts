@@ -13,17 +13,17 @@ public class FactBook {
             "Olympic gold medals are actually made mostly of silver.",
             "Banging your head against a wall burns 150 calories per hour.",
             "When hippos are upset, their sweat turns red.",
-            "If you consistently fart for 6 years and 9 months, enough gas is produced to smell like Winthya",
+            "A car that shifts manually gets 2 miles more per gallon of gas than a car with automatic shift.",
             "You cannot snore and dream at the same time.",
-            "Samiya is also a synonym for llama. ",
-            "Jason is a pundai.",
-            "Vithushan has never made fantasy playoffs.",
-            "Sujee is the Los Angeles Clippers of our fantasy league.",
-            "Prez is the Meek Mill of this generation.",
-            "Glenn is just plain shit at fantasy.",
-            "JV will win the 2015-2016 fantasy league. He's also an overall swell guy.",
-            "Lucksson gonna take 3 D's when he faces JV in the playoffs. ",
-            "Sneha is a dingus"
+            "In ancient Rome, it was considered a sign of leadership to be born with a crooked nose.",
+            "A lion's roar can be heard from five miles away.",
+            "When snakes are born with two heads, they fight each other for food.",
+            "Every year about 98% of the atoms in your body are replaced.",
+            "The king of hearts is the only king without a moustache.",
+            "Southern California has about 10,000 earthquakes each year, though most are so small that they are never felt.\n",
+            "An apple, potato, and onion all taste the same if you eat them with your nose plugged.",
+            "A small child could swim through the veins of a blue whale. ",
+            "The Bible is the most shoplifted book in the world."
 
     };
 
